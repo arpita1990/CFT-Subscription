@@ -1,14 +1,11 @@
 package com.cft.subscriptions;
 
-import com.cft.persistence.model.dto.dto.UserSubscriptionDTO;
-import com.cft.subscription.service.impl.UserSubscriptionServiceImpl;
+import com.cft.subscription.serviceImpl.UserSubscriptionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;

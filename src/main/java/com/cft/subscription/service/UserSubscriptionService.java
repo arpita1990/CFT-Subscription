@@ -1,4 +1,4 @@
-package com.cft.subscriptions.service;
+package com.cft.subscription.service;
 
 import com.cft.appservice.constant.Status;
 import com.cft.persistence.model.User;

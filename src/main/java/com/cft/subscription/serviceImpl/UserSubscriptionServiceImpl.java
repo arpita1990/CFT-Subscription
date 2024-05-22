@@ -1,4 +1,4 @@
-package com.cft.subscription.service.impl;
+package com.cft.subscription.serviceImpl;
 
 import com.cft.appservice.constant.Status;
 import com.cft.appservice.constant.UserSubscriptionNotification;
@@ -15,7 +15,7 @@ import com.cft.persistence.repository.UserSubscriptionRepository;
 import com.cft.persistence.service.DbEmailTemplateService;
 import com.cft.subscription.model.SubscriptionExpiry;
 import com.cft.subscription.repository.SubscriptionExpiryRepository;
-import com.cft.subscriptions.service.UserSubscriptionService;
+import com.cft.subscription.service.UserSubscriptionService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
