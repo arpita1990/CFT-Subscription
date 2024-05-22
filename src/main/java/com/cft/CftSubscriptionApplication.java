@@ -1,4 +1,4 @@
-package com.cft.subscriptions;
+package com.cft;
 
 import com.cft.subscription.serviceImpl.UserSubscriptionServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

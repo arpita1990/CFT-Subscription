@@ -1,4 +1,4 @@
-package com.cft.subscriptions;
+package com.cft;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
